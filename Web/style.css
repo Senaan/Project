@@ -1,0 +1,111 @@
+.container {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	height: 350px;
+	color: white;
+}
+
+.bottom-right {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	font-size: 80px
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+nav {
+	background-color: black;
+	height: 50px;
+	clear: both;
+	width: 100%;
+}
+
+nav ul {
+	height: 50 px;
+	width: 450 px;
+	margin: 0 auto;
+}
+
+nav ul li {
+	list-style-type: none;
+	width: 150 px;
+	float: left;
+	text-align: center;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	line-height: 50px;
+	display: block;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.flex-container {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	flex-wrap: wrap;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	justify-content: space-evenly;
+	align-content: center;
+	background-color: white;
+}
+
+.flex-container>div {
+	background-color: #f1f1f1;
+	width: 400px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+}
+
+.links ul li {
+	margin: 10px;
+	list-style-type: none;
+}
+
+.footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	clear: both;
+}
+
+img {
+	float: right;
+	width: 250px;
+	margin-left: 15px;
+	margin-bottom: 0;
+	clear: both;
+}
+
+p.imp {
+	margin: 50px;
+}
+
+.flex-container {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	flex-wrap: wrap;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	justify-content: space-evenly;
+	align-content: center;
+	background-color: white;
+}
